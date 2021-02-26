@@ -1,0 +1,50 @@
+.jumbotron {
+    display: inline-box;
+    align-items: center;
+    padding: 250px;
+}
+
+.lead {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#meetme {
+    padding-left: 100px;
+}
+
+
+.yellowtext {
+    font-family: Swis721 BdOul BT;
+    font-weight: bold;
+}
+
+.para1 {
+    font-size: 20px;    
+}
+
+.highlight {
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+}
+
+.para2 {
+    font-size: 20px;
+    text-align: right;
+    list-style-type: none;
+}
+
+.skills {
+    width: 100px;
+    height: 100px;
+}
+
+.card {
+    color: black;
+    font-size: 12px;
+    border-style: double;
+    border-color: black;
+    display: inline-block;
+}
