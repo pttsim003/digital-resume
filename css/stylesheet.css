@@ -62,19 +62,22 @@
 }
 
 
-@media screen and (max-width:650px){
-    .navbar navbar-expand-md navbar-light bg-light {
-        width: 100%;
+@media screen and (max-width:600px){
+    .jumbotron {
+        padding: 50px;
     }
+}
     
-@media screen and (min-width:850px){
-    .navbar navbar-expand-md navbar-light bg-light {
-        width: 100%;
+@media screen and (max-width:850px){
+    .jumbotron {
+        padding: 100px;
     }
+}
     
 @media screen and (min-width:1200px){
-    .navbar navbar-expand-md navbar-light bg-light {
-        width: 100%;
+     .jumbotron {
+        padding: 250px;
     }
+}
     
     
