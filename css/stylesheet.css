@@ -1,3 +1,15 @@
+.logo a:hover {
+    animation-name: color;
+    background-color: yellow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0% {background-color: yellow;}
+    100% {background-color: white;}
+}
+
 .jumbotron {
     display: inline-box;
     align-items: center;
@@ -48,3 +60,21 @@
     border-color: black;
     display: inline-block;
 }
+
+
+@media screen and (max-width:650px){
+    .navbar navbar-expand-md navbar-light bg-light {
+        width: 100%;
+    }
+    
+@media screen and (min-width:850px){
+    .navbar navbar-expand-md navbar-light bg-light {
+        width: 100%;
+    }
+    
+@media screen and (min-width:1200px){
+    .navbar navbar-expand-md navbar-light bg-light {
+        width: 100%;
+    }
+    
+    
